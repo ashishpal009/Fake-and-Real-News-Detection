@@ -117,12 +117,4 @@ print(classification_report(y_test, y_pred))
 - Recall
 - F1-score
 
----
-
-## Contributors
-- [Your Name](https://github.com/your-profile)
-
----
-
-## License
-This project is licensed under the MIT License.
+-
