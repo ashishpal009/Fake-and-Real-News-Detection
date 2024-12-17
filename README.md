@@ -36,53 +36,6 @@ The dataset consists of two folders containing **True** and **Fake** news articl
 - Classify new, unseen text messages as **Fake** or **Real News**.
 - Gain hands-on experience with techniques like **Stemming**, **Lemmatization**, **MultinomialNB**, **Word2Vec**, and **TF-IDF**.
 
----
-
-## Directory Structure
-```
-├── data/
-│   ├── True/
-│   └── Fake/
-├── notebooks/
-│   ├── data_preprocessing.ipynb
-│   ├── model_building.ipynb
-│   └── model_evaluation.ipynb
-├── src/
-│   ├── data_preparation.py
-│   ├── rnn_model.py
-│   └── evaluation.py
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/fake-news-detection.git
-   cd fake-news-detection
-   ```
-
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
-## Usage
-
-### Data Preparation
-Use the `data_preparation.py` script or the corresponding Jupyter Notebook to:
-- Clean and preprocess the data.
-- Perform feature extraction using TF-IDF and Word2Vec.
-- Split the dataset into training and testing sets.
-
-```bash
-python src/data_preparation.py
-```
 
 ### Model Building
 Build the RNN model using the `rnn_model.py` script or the notebook:
@@ -97,10 +50,6 @@ Evaluate the model's performance:
 ```bash
 python src/evaluation.py
 ```
-
----
-
-## Example Code Snippets
 
 ### 1. Data Cleaning
 ```python
